@@ -1,6 +1,6 @@
-в папке couchdb - файлы для запуска бд в докере
-скопируйте ее !целиком! куда удобно, и следуйте инструкциям внутри
-
-в папке vstup - непосредственно проект, в первый раз запустите install.bat, для запуска start.bat
-сервер откроется на порту 5000, поменять можно в app.js
+docker-compose build
+docker-compose up
+couchdb - http://localhost:5984/_utils
+server - http://localhost:5000/
+client - http://localhost:3000/
 
