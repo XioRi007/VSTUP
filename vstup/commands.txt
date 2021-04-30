@@ -1,5 +1,0 @@
-npm init
-npm install express nano
-npm install -D nodemon concurrently
-npx create-react-app client
-npm i react-router-dom
