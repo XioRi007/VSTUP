@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  db:
+    container_name: couch
+    build: ./couchdb
+    restart: always
+    volumes:
+        - D:/Univer/kurs_work/couchdb/data:/opt/couchdb/data
+    ports:
+      - 5984:5984  
+  server:
+    container_name: api
+    build: ./node
+    links:
+      - db
+    ports:
+      - 5000:5000  
+  client:
+    container_name: ui
+    build: ./react
+    links:
+        - server
+    ports:
+      - 3000:3000
