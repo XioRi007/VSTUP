@@ -30,13 +30,13 @@ export const useTools = () => {
             setReady(false);
             const response = await request('/api/tools/maxnum/change', 'POST', {maxnum});
             if(!response.ok) throw new Error(response.message || 'Проблема загрузки времени');
-            setTime(maxnum);
+            setMaxNum(maxnum);
             setReady(true);
         }catch(e){
             //alert.show(e.message || 'Что-то пошло не так', "danger");
             setReady(true);
         }
-    }, [request, setTime]);
+    }, [request, setMaxNum]);
     
     useEffect(() => {
         let cleanupFunction = false;  
