@@ -80,7 +80,7 @@ export const ApplicationList = ({Applications, hasScores})=>{
                 <td className='col  py-3'> {e.Name}</td>
                 <td className='col-2  py-3'>{Number(e.RankingScore)}</td>
                 <td className='col-2  py-3'>{e.Submitted ?'Так' : <button  className=' btn btn-outline-success btn-sm  'disabled={e.Submitted || hasSubmittedDoc} value={e.id} onClick={submitApplicationHandler}>Підтвердити</button>}</td>
-                <button  className='col-1 btn btn-outline-danger btn-sm 'value={e.id} onClick={deleteHandler}>Видалити</button>
+                <td className='col-1  py-3 '><button  className='btn btn-outline-danger btn-sm 'value={e.id} onClick={deleteHandler}>Видалити</button></td>
             </tr>
             )
         });    
