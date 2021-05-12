@@ -72,7 +72,7 @@
     * всі функції гостя.
 ### Скріншоти
 Перше, що ви побачите - це головна сторінка.
-![MainPage](https://docs.google.com/drawings/d/1dcMOwqeuFIZKujEenf2hkfZ6MZXcCggH6iNge9EJxys/edit?usp=sharing)
+![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
 Сторінка авторизації
 ![MainPage](//placehold.it/150x100)
 Створення нового абітурієнта
