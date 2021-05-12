@@ -10,17 +10,21 @@ router.get('/get/submitted/:id/:limit', async (req, res) => {
     const spId = req.params.id;
     let limit = req.params.limit;    
     if(typeof limit != Number) limit=500;    
-    const resSub = await vstup.view('_applications', 'submitted_by_specialty_ranking',{descending:true, endkey:[spId, "100"], startkey:[spId, "200",{}], limit:limit || 500});      
+    const resSub = await vstup.view('_applications', 'submitted_by_specialty_ranking',{descending:true, endkey:[spId, "100"], startkey:[spId, "200",{}], limit:limit || 500});
+    const resBeyondSub = await vstup.view('_applications', 'submitted_by_specialty_ranking',{descending:true, endkey:[spId, "100"], startkey:[spId, "200",{}], offset:limit || 500});
     
     const resNotSub = await vstup.view('_applications', 'not_submitted_by_specialty_ranking',{descending:true, endkey:[spId,  "100"], startkey:[spId, "200",{}], limit:limit || 500});      
       
-    const Submitted = resSub.rows.map((e,i)=>{
+    const submitted = resSub.rows.map((e,i)=>{
       return {...e.value}
     }); 
-    const NotSubmitted = resNotSub.rows.map((e,i)=>{
+    const submittedBeyondLimits = resBeyondSub.rows.map((e,i)=>{
       return {...e.value}
     }); 
-    const Applications = Submitted.concat(NotSubmitted);   
+    const unsubmitted = resNotSub.rows.map((e,i)=>{
+      return {...e.value}
+    }); 
+    const Applications = submitted.concat(submittedBeyondLimits).concat(unsubmitted);   
     res.json({Applications });
   } catch (e) {
     res.status(500).json({ message: e.message||'Щось пішло не так, спробуйте знову!' });
