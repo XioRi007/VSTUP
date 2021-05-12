@@ -72,34 +72,34 @@
     * всі функції гостя.
 ### Скріншоти
 ##### Перше, що ви побачите - це головна сторінка.
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка авторизації
-![AuthPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![AuthPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Створення нового абітурієнта
-![NewApplicantnPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![NewApplicantnPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Додавання балів
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Додавання документів
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Додавання заяв
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка абітурієнта
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка адміністратора
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Додавання спеціальності
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Видалення спеціальності
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Змінення максимальної кількості заявок
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Список факультетів
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Список всіх спеціальностей певного факультету (математичного)
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Список всіх спеціальностей за рейтингом
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка спеціальності (до закриття подачі заяв)
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка спеціальності (після закриття подачі заяв)
-![MainPage](https://github.com/XioRi007/img/blob/main/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
