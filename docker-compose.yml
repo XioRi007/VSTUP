@@ -11,14 +11,14 @@ services:
       - 5984:5984  
   server:
     container_name: api
-    build: ./node
+    build: ./server
     links:
       - db
     ports:
       - 5000:5000  
   client:
     container_name: ui
-    build: ./react
+    build: ./client
     links:
         - server
     ports:
