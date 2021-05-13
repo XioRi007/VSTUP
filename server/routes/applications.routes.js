@@ -11,7 +11,7 @@ router.get('/get/submitted/:id/:limit', async (req, res) => {
     let limit = req.params.limit;    
     if(typeof limit != Number) limit=500;    
     const resSub = await vstup.view('_applications', 'submitted_by_specialty_ranking',{descending:true, endkey:[spId, "100"], startkey:[spId, "200",{}], limit:limit || 500});
-    const resBeyondSub = await vstup.view('_applications', 'submitted_by_specialty_ranking',{descending:true, endkey:[spId, "100"], startkey:[spId, "200",{}], offset:limit || 500});
+    const resBeyondSub = await vstup.view('_applications', 'submitted_by_specialty_ranking',{descending:true, endkey:[spId, "100"], startkey:[spId, "200",{}], skip:limit || 500});
     
     const resNotSub = await vstup.view('_applications', 'not_submitted_by_specialty_ranking',{descending:true, endkey:[spId,  "100"], startkey:[spId, "200",{}], limit:limit || 500});      
       
