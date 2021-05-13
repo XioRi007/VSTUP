@@ -74,7 +74,7 @@
 ##### Перше, що ви побачите - це головна сторінка.
 ![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка авторизації
-![AuthPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
+![AuthPage](https://github.com/XioRi007/img/blob/main/vstup/auth.jpg?raw=true)
 ##### Створення нового абітурієнта
 ![NewApplicantnPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Додавання балів
@@ -84,9 +84,11 @@
 ##### Додавання заяв
 ![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Сторінка абітурієнта
-![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/Applicant.png?raw=true)
 ##### Сторінка адміністратора
-![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/Admin.png?raw=true)
+##### Сторінка спеціальності
+![MainPage](https://github.com/XioRi007/img/blob/main/vstup/Specialty.png?raw=true)
 ##### Додавання спеціальності
 ![MainPage](https://github.com/XioRi007/img/blob/main/vstup/main.jpg?raw=true)
 ##### Видалення спеціальності
