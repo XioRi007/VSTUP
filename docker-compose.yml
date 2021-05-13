@@ -5,6 +5,9 @@ services:
     container_name: couch
     build: ./couchdb
     restart: always
+    environment:
+        COUCHDB_USER: "admin"
+        COUCHDB_PASSWORD: "1234"
     volumes:
         - ./couchdb/data:/opt/couchdb/data
     ports:
