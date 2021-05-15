@@ -13,7 +13,7 @@ export const Alert = ()=>{
 
     return (
         
-        <div className="row justify-content-end position-absolute" style={{"width": '100%'}}>
+        <div className="row justify-content-end fixed-top" style={{"width": '100%'}}>
             <div className={`alert alert-${alert.type || 'warning'} col-3 m-4 alert-dismissible`} >
                 {alert.text}
                 <button onClick = {hide}type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
