@@ -68,7 +68,7 @@ export const SpecialtyPage = ()=>{
     if(specialty.NumberOfApplications && applications.length){  
         list = applications.map((e, i)=>{
                 return (
-                    <tr className='row  my-0 text-center py-auto' style={(timeIsGone && e.Submitted) ? {backgroundColor:'#c8e6c9'} : {}} key={i}>
+                    <tr className='row  my-0 text-center py-auto' style={(timeIsGone && e.Submitted && i < specialty.MaxNumberOfStudents) ? {backgroundColor:'#c8e6c9'} : {}} key={i}>
                         <td className='col-1 '>{i+1}</td>
                         <td className='col-3 '>{e.LastName}</td>
                         <td className='col-2  '>{e.FirstName}</td>
