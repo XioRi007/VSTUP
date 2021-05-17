@@ -38,7 +38,7 @@ export const PersonalInfo = ({LastName='', FirstName='', Patronymic='', Email=''
                 </div>
             </div>
             <div className='row justify-content-end mb-3 px-4'>
-                <Link to='/applicant/update' className='col-1 btn btn-outline-primary btn-sm'>Змінити</Link>
+                <Link to='/applicant/update' className='col-1 btn btn-outline-primary btn-sm  mx-3'>Змінити</Link>
 
             </div>
 
